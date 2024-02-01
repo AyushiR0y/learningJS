@@ -1,9 +1,8 @@
-const x=10;
-if(x==10)//== will just see value not match datatypes
-{
+
+const x=20;
+if(x===10){
     console.log('x is 10');
 }
-if(x===10)//=== checks datatypes, since both are number it is true
-{
-    console.log('x is number 10');
+else{
+    console.log('x is not 10');
 }
