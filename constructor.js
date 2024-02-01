@@ -7,7 +7,7 @@ function Person(fname, lname, dob){
         return this.dob.getFullYear();
     }
     this.getFullName = function(){
-        return `${this.fname} ${lname}`
+        return `${this.fname} ${this.lname}`
     }
 }
 //instantiate object
