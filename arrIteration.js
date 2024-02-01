@@ -15,7 +15,9 @@ const todos =[
         isCompleted: true
     }
 ];
-//foreach for iteration
-todos.forEach(function(todo){
+//map
+const todoText= todos.map(function(todo){
     console.log(todo.text);
 })
+
+console.log(todoText);
