@@ -15,9 +15,9 @@ const todos =[
         isCompleted: true
     }
 ];
-//map
-const todoText= todos.map(function(todo){
-    console.log(todo.text);
+//filter
+const todoCompleted= todos.filter(function(todo){
+    return todo.isCompleted === true;
 })
 
-console.log(todoText);
+console.log(todoCompleted);
