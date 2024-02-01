@@ -14,4 +14,5 @@ const todos =[
         isCompleted: true
     }
 ];
-console.log(todos[1].text);
+const todoJSON = JSON.stringify(todos);
+console.log(todoJSON);
